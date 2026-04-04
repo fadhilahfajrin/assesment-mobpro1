@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Water Intake App</string>
+    <string name="kembali">Kembali</string>
+    <string name="copy_right"> Copyright © 2024–2026 Indra Azimi. All right reserved </string>
+    <string name="reset">Reset</string>
+    <string name="berat_badan">Berat Badan</string>
+    <string name="aktivitas">Aktivitas</string>
+    <string name="aktivitas_ringan">Ringan</string>
+    <string name="aktivitas_sedang">Sedang</string>
+    <string name="hitung">Hitung</string>
+    <string name="bagikan">Bagikan</string>
+    <string name="input_invalid">Tidak boleh kosong</string>
+    <string name="hasil_air">Kebutuhan air: %1$.2f liter</string>
+    <string name="bagikan_template">
+        Kebutuhan air saya %1$.2f liter
+    </string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="judul_tentang">Tentang</string>
+    <string name="isi_tentang">
+        Aplikasi ini digunakan untuk menghitung kebutuhan air harian berdasarkan berat badan dan aktivitas.
+    </string>
 </resources>
