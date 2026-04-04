@@ -1,3 +1,3 @@
-Nama    : Nur Fadhilah Fajrin
+Nama   : Nur Fadhilah Fajrin
 
-NIM     : 607062400047
+NIM    : 607062400047
