@@ -7,6 +7,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.nurfadhilahfajrin0047.waterintakeapp.screen.MainScreen
 import com.nurfadhilahfajrin0047.waterintakeapp.screen.AboutScreen
+import com.nurfadhilahfajrin0047.waterintakeapp.screen.MateriScreen
 
 @Composable
 fun SetupNavGraph(navController: NavHostController = rememberNavController()) {
@@ -19,6 +20,9 @@ fun SetupNavGraph(navController: NavHostController = rememberNavController()) {
         }
         composable(Screen.About.route) {
             AboutScreen(navController)
+        }
+        composable(Screen.Materi.route) {
+            MateriScreen(navController)
         }
     }
 }

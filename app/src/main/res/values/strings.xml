@@ -1,22 +1,73 @@
 <resources>
-    <string name="app_name">Water Intake App</string>
-    <string name="kembali">Kembali</string>
-    <string name="copy_right"> Copyright © 2024–2026 Indra Azimi. All right reserved </string>
+    <string name="app_name">Daily Health Calculator</string>
+    <string name="kembali">Back</string>
+    <string name="copy_right">Copyright © 2024–2026 Nur Fadhilah Fajrin. All rights reserved </string>
     <string name="reset">Reset</string>
-    <string name="berat_badan">Berat Badan</string>
-    <string name="aktivitas">Aktivitas</string>
-    <string name="aktivitas_ringan">Ringan</string>
-    <string name="aktivitas_sedang">Sedang</string>
-    <string name="hitung">Hitung</string>
-    <string name="bagikan">Bagikan</string>
-    <string name="input_invalid">Tidak boleh kosong</string>
-    <string name="hasil_air">Kebutuhan air: %1$.2f liter</string>
+    <string name="hitung_intro">
+        Find out your daily water and calorie needs.
+        Enter your data below:
+    </string>
+    <string name="berat_badan">Weight</string>
+    <string name="aktivitas">Activity</string>
+    <string name="aktivitas_ringan">Light</string>
+    <string name="aktivitas_sedang">Moderate</string>
+    <string name="aktivitas_berat">Heavy</string>
+    <string name="hitung">Calculate</string>
+    <string name="bagikan">Share</string>
+    <string name="input_invalid">Cannot be empty</string>
+    <string name="hasil_air">Your daily water requirement: %1$.2f liters</string>
+    <string name="hasil_kalori">Your daily calorie requirement: %1$.0f kcal</string>
+    <string name="rekomendasi_minum">It is recommended to drink about %1$.0f ml every 2–3 hours (±8 times a day)</string>
     <string name="bagikan_template">
-        Kebutuhan air saya %1$.2f liter
+        My daily water need is %1$.2f liters
     </string>
-    <string name="tentang_aplikasi">Tentang Aplikasi</string>
-    <string name="judul_tentang">Tentang</string>
-    <string name="isi_tentang">
-        Aplikasi ini digunakan untuk menghitung kebutuhan air harian berdasarkan berat badan dan aktivitas.
+    <string name="tentang_aplikasi">About App</string>
+    <string name="judul_tentang">About</string>
+    <string name="isi_tentang">This application helps calculate daily water and
+        calorie needs based on body weight and activity level to maintain a
+        healthy lifestyle.
     </string>
+    <string name="materi">Education</string>
+    <string name="isi_materi">Explanation about daily water needs...</string>
+    <string name="materi_penting">💧Importance of Water💧</string>
+    <string name="materi_penting_desc">Water is essential for maintaining body
+        functions such as metabolism, body temperature, and organ health.
+    </string>
+    <string name="materi_kalori">🔥Importance of Calories🔥</string>
+    <string name="materi_kalori_desc">Calories provide energy for daily activities
+        and help maintain proper body functions.
+    </string>
+    <string name="materi_faktor">Factors Affecting Needs</string>
+    <string name="materi_faktor_desc">
+        • Body weight
+        • Activity level
+        • Body condition
+    </string>
+    <string name="materi_perhitungan">How It’s Calculated</string>
+    <string name="materi_perhitungan_desc">Water needs are calculated based on
+        body weight and activity level, while calorie needs are based on daily
+        energy requirements.
+    </string>
+    <string name="materi_tips">💡Health Tips💡</string>
+    <string name="materi_tips_desc">
+        • Drink water every 2–3 hours
+        • Don’t wait until you feel thirsty
+        • Eat nutritious foods
+        • Adjust intake based on activity
+    </string>
+
+    <string name="materi_highlight">
+        On average, people need about 1.5–2 liters of water per day.
+    </string>
+    <string name="materi_personal">
+        Staying hydrated is especially important during hot weather or high physical activity.
+    </string>
+    <string name="about_tagline">💧Healthy habits start from small steps!</string>
+    <string name="kategori_umur">Age Category</string>
+    <string name="anak">Child</string>
+    <string name="dewasa">Adult</string>
+    <string name="jenis_kelamin">Gender</string>
+    <string name="laki_laki">Male</string>
+    <string name="perempuan">Female</string>
+    <string name="tinggi_badan">Height</string>
 </resources>

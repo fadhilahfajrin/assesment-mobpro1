@@ -1,6 +1,7 @@
 package com.nurfadhilahfajrin0047.waterintakeapp.screen
 
 import android.content.res.Configuration
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.height
@@ -14,6 +15,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
+import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
@@ -31,36 +33,59 @@ fun AboutScreen(navController: NavHostController) {
         topBar = {
             TopAppBar(
                 title = {
-                    Text(text = stringResource(id = R.string.tentang_aplikasi))
+                    Text(
+                        text = stringResource(id = R.string.tentang_aplikasi),
+                        style = MaterialTheme.typography.titleLarge
+                    )
                 },
+                colors = TopAppBarDefaults.topAppBarColors(
+                    containerColor = MaterialTheme.colorScheme.primaryContainer,
+                    titleContentColor = MaterialTheme.colorScheme.onPrimaryContainer,
+                    navigationIconContentColor = MaterialTheme.colorScheme.onPrimaryContainer
+                ),
                 navigationIcon = {
                     IconButton(onClick = {
                         navController.popBackStack()
                     }) {
                         Icon(
                             imageVector = Icons.AutoMirrored.Filled.ArrowBack,
-                            contentDescription = stringResource(id = R.string.kembali),
-                            tint = MaterialTheme.colorScheme.primary
+                            contentDescription = stringResource(id = R.string.kembali)
                         )
                     }
                 }
             )
         }
     ) { innerPadding ->
-        Column(
-            modifier = Modifier
-                .padding(innerPadding)
-                .padding(16.dp)
-        ) {
-            Text(
-                text = stringResource(id = R.string.isi_tentang)
-            )
-            Spacer(modifier = Modifier.height(16.dp))
-            Text(
-                text = stringResource(id = R.string.copy_right),
-                style = MaterialTheme.typography.bodySmall
-            )
-        }
+        AboutContent(Modifier.padding(innerPadding))
+    }
+}
+
+@Composable
+fun AboutContent(modifier: Modifier = Modifier) {
+    Column(
+        modifier = modifier
+            .padding(16.dp),
+        verticalArrangement = Arrangement.spacedBy(12.dp)
+    ) {
+        Text(
+            text = stringResource(R.string.isi_tentang),
+            style = MaterialTheme.typography.bodyMedium
+        )
+
+        Spacer(modifier = Modifier.height(8.dp))
+
+        Text(
+            text = stringResource(R.string.about_tagline),
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.primary
+        )
+
+        Spacer(modifier = Modifier.height(12.dp))
+
+        Text(
+            text = stringResource(R.string.copy_right),
+            style = MaterialTheme.typography.bodySmall
+        )
     }
 }
 

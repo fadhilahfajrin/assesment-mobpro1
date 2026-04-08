@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Daily Health Calculator</string>
+    <string name="kembali">Kembali</string>
+    <string name="copy_right">Copyright © 2024–2026 Nur Fadhilah Fajrin. All rights
+        reserved </string>
+    <string name="reset">Reset</string>
+    <string name="hitung_intro">
+        Ketahui kebutuhan air dan kalori harianmu.
+        Masukkan data berikut:
+    </string>
+    <string name="berat_badan">Berat Badan</string>
+    <string name="aktivitas">Aktivitas</string>
+    <string name="aktivitas_ringan">Ringan</string>
+    <string name="aktivitas_sedang">Sedang</string>
+    <string name="aktivitas_berat">Berat</string>
+    <string name="hitung">Hitung</string>
+    <string name="bagikan">Bagikan</string>
+    <string name="input_invalid">Tidak boleh kosong</string>
+    <string name="hasil_air">Kebutuhan air harian Anda: %1$.2f liter</string>
+    <string name="hasil_kalori">Kebutuhan kalori harian Anda: %1$.0f kkal</string>
+    <string name="rekomendasi_minum">Disarankan minum sekitar %1$.0f ml setiap 2–3
+        jam (±8 kali sehari)</string>
+    <string name="bagikan_template">Kebutuhan air saya %1$.2f liter</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="judul_tentang">Tentang</string>
+    <string name="isi_tentang">Aplikasi ini membantu menghitung kebutuhan air dan
+        kalori harian berdasarkan berat badan serta tingkat aktivitas untuk menjaga
+        kesehatan tubuh.
+    </string>
+    <string name="materi">Materi</string>
+    <string name="isi_materi">Penjelasan kebutuhan air harian...</string>
+    <string name="materi_penting">Pentingnya Air</string>
+    <string name="materi_penting_desc">Air sangat penting untuk menjaga fungsi
+        tubuh seperti metabolisme, suhu tubuh, dan kesehatan organ.
+    </string>
+    <string name="materi_kalori">Pentingnya Kalori</string>
+    <string name="materi_kalori_desc">Kalori merupakan sumber energi bagi tubuh
+        untuk melakukan aktivitas sehari-hari dan menjaga fungsi organ.
+    </string>
+    <string name="materi_faktor">Faktor Kebutuhan</string>
+    <string name="materi_faktor_desc">
+        • Berat badan
+        • Tingkat aktivitas
+        • Kondisi tubuh
+    </string>
+    <string name="materi_perhitungan">Cara Perhitungan</string>
+    <string name="materi_perhitungan_desc">Kebutuhan air dihitung berdasarkan berat
+        badan dan aktivitas, sedangkan kebutuhan kalori dihitung dari kebutuhan
+        energi harian.
+    </string>
+    <string name="materi_tips">Tips Sehat</string>
+    <string name="materi_tips_desc">
+        • Minum setiap 2–3 jam
+        • Jangan menunggu haus
+        • Konsumsi makanan bergizi
+        • Sesuaikan asupan dengan aktivitas
+    </string>
+
+    <string name="materi_highlight">Rata-rata orang membutuhkan sekitar 1.5–2
+        liter air per hari.
+    </string>
+    <string name="materi_personal">Menjaga hidrasi sangat penting terutama saat
+        cuaca panas atau aktivitas tinggi.
+    </string>
+    <string name="about_tagline">💧Kebiasaan sehat dimulai dari langkah kecil!</string>
+    <string name="kategori_umur">Kategori Umur</string>
+    <string name="anak">Anak</string>
+    <string name="dewasa">Dewasa</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="laki_laki">Laki-laki</string>
+    <string name="perempuan">Perempuan</string>
+    <string name="tinggi_badan">Tinggi Badan</string>
+</resources>
